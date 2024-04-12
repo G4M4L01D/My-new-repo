@@ -5,6 +5,7 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 build_histogram = st.checkbox('Construir histograma para la columna odometro') # crear un botón
 build_scatter = st.checkbox('Construir Diagrama de Dispersion') # crear un botón
+st.markdown("<h1 style='text-align: center; color: red;'>Proyecto 5 - Servicio Web</h1>", unsafe_allow_html=True)
 
 if build_histogram: # al hacer clic en el botón
     # escribir un mensaje
